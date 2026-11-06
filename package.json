@@ -1,0 +1,24 @@
+{
+  "name": "careroute-ai-v2-platform",
+  "version": "2.0.0",
+  "description": "CareRoute AI v2: Empowering Traveling Doctors with AI (DL-SJBIT-HK26-SSF010)",
+  "scripts": {
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "rural-healthcare",
+    "telemedicine",
+    "ai-copilot",
+    "offline-first",
+    "mongodb-atlas",
+    "doctor-patient-chat"
+  ],
+  "author": "CareRoute AI Team",
+  "license": "MIT"
+}
